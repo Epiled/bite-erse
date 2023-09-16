@@ -1,6 +1,6 @@
 # Baixar projeto
 ```
-1. git clone https://github.com/Epiled/alura-books.git
+1. git clone https://github.com/Epiled/teste-econverse
 2. cd alura-books
 ```
 
