@@ -24,7 +24,6 @@ function App() {
   useEffect(() => {
     axios.get('https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json')
       .then(resposta => {
-        console.log(resposta)
         setProdutos(resposta.data.products);
       })
       .catch(erro => {
@@ -48,9 +47,6 @@ function App() {
   function offModal(modal: boolean) {
     setModal(false);
   }
-
-  console.log(produtos);
-  console.log(modalAberta)
 
   return (
     <div className="App">
